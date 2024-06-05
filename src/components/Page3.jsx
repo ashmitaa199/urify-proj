@@ -6,10 +6,10 @@ import rings from "../assets/rings.png"
 import iph3 from "../assets/iph3.png"
 export default function Page3(){
     return (
-        <section class=" md:flex md:py-16 md:mt-20 -ml-20 flex flex-row ">
-        <img class=" absolute md:left-4 md:mt-2 md:w-2 left-1 mt-10 w-10 z-20 rotate-45 " src={st}/>
+        <section class=" md:flex md:py-16 md:mt-20 md:-ml-20  ">
+        <img class=" md:absolute md:left-4 md:mt-2 md:w-2 left-1 mt-10 w-10 z-20 rotate-45 " src={st}/>
           
-          <div class=" relative w-1/2 left-28 mt-20">
+          <div class=" md:relative md:w-1/2 md:left-48 md:mt-20 ">
             <span class="text-red-500 text-lg">Advantages</span>
             <h1 class="font-bold text-4xl">Why Choose Uifry?</h1>
             <div class="flex text-sm font-semibold mt-4">
@@ -22,12 +22,12 @@ export default function Page3(){
     
           </div>
 
-          <div class="md:flex  md:w-1/2">
+          <div class="hidden md:flex md:w-1/2">
+    <img class="md:absolute md:right-48 md:w-[400px] md:h-[400px] z-0 absolute right-28" src={bg} />
+    <img class="md:absolute md:right-20 md:w-[500px] md:h-[550px] z-10 absolute right-10" src={rings} />
+    <img class="md:absolute md:right-20 z-20 md:w-96 md:h-auto absolute right-10" src={iph3} alt="Image 1" />
+</div>
 
-          <img class=" md:absolute md:right-48 md:w-[400px] md:h-[400px] z-0 absolute right-28" src={bg}/>
-          <img class=" md:absolute md:right-20 md:w-[500px] md:h-[550px] z-10 absolute right-10" src={rings}/>
-          <img class=" md:absolute md:right-20 z-20  md:w-96 md:h-auto absolute right-10" src={iph3} alt="Image 1"/>
-          </div>
         </section>
     )
 }

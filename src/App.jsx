@@ -53,12 +53,16 @@ function App() {
 
         <div class="">
         <section class="relative ml:0">
-            <img class=" md:absolute md:left-16 md:-top-24 w-4/5 md:mt-0 h-auto z-50 absolute top-20 left-0 " src={ip1} alt="Image 1"/>
-            <img class=" md:absolute md:-top-16 md:left-40 w-4/5 h-auto z-40 absolute top-10 left-6" src={ip2} alt="Image 2"/>
-            <img class=" md:relative md:-top-10 md:w-4/5 md:left-60  md:h-auto z-30 relative -top-0 left-10" src={ip1} alt="Image 3"/>
-            
-            <img class="md:absolute md:-top-24 md:left-32 md:w-[500px] md:h-[500px] z-0 absolute -top-14 left-7 w-[500px] h-[500px]" src={rings} alt="Image 1"/>
-            <img class="md:absolute md:top-56 md:right-32 md:w-[300px] md:h-[300px] z-10 absolute top-64 right-16 w-[200px] h-[200px] rotate-180" src={bg} alt="Image 1"/>
+        <img class="hidden md:block md:absolute md:left-16 md:-top-24 md:w-4/5 md:mt-0 md:h-auto md:z-50" src={ip1} alt="Image 1"/>
+
+        <img class="hidden md:block md:absolute md:-top-16 md:left-40 md:w-4/5 md:h-auto md:z-40" src={ip2} alt="Image 2"/>
+
+        <img class="hidden md:block md:relative md:-top-10 md:w-4/5 md:left-60 md:h-auto md:z-30" src={ip1} alt="Image 3"/>
+
+      <img class="hidden md:block md:absolute md:-top-24 md:left-32 md:w-[500px] md:h-[500px] md:z-0" src={rings} alt="Image 1"/>
+
+     <img class="hidden md:block md:absolute md:top-56 md:right-32 md:w-[300px] md:h-[300px] md:z-10 md:rotate-180" src={bg} alt="Image 1"/>
+
             <img class="absolute top-96 w-10 left-56 z-20 rotate-45" src={st}/>
         </section>
         </div>

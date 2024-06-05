@@ -13,7 +13,7 @@ export default function Nav(){
         </div>
             <div className="flex ml-16 gap-5 p-1 font-semibold">
                 
-            <h2>Home</h2>
+            <h2 >Home</h2>
             <h2>AboutUs</h2>
             <h2>Pricing</h2>
             <h2>Features</h2>
