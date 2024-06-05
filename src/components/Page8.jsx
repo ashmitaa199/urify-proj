@@ -1,6 +1,6 @@
 import React from "react";
 import wrings from "../assets/wrings.png"
-import iphone from "../assets/iphone3.png"
+import iphone from "../assets/iPhone3.png"
 import bg1 from "../assets/bg1.png"
 export default function Page8(){
     return(
