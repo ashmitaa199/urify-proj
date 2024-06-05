@@ -1,4 +1,5 @@
 import React from "react";
+import wrings from "../assets/wrings.png"
 export default function Page8(){
     return(
         
@@ -20,7 +21,7 @@ export default function Page8(){
             <div class="  ">
               <img class=" absolute w-96 h-full z-10 right-0 mt-0"src="/src/assets/iphone3.png"/>
               
-              <img class="absolute w-64 mt-52 z-0"src="/src/assets/wrings.png"/>
+              <img class="absolute w-64 mt-52 z-0"src={wrings}/>
            
    
             </div>

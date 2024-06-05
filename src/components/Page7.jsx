@@ -3,7 +3,6 @@ export default function Page7(){
     return(
         <div>
         <section class="  md:py-10 md:ml-52 md:mt-14">
-          
           <div class="md:flex md:absolute md:mt-3 md:w-[1800px] ">
             <div class="bg-white md:h-40 rounded md:px-3">
               <h1 class="md:text-[20px] md:mt-4 md:font-bold text-black">The Best Financial Accounting App Ever!</h1>

@@ -1,11 +1,13 @@
 import React from "react"
+import vec from "../assets/Vector.png"
+import st from "../assets/Star.png"
 export default function Nav(){
     return (
         
         <nav className="md:w-full md:h-10 md:flex md:px-2 md:py-2 md:ml-20">
             
         <div className="flex" >
-           <img src="./src/assets/Vector.png" className="nav--logo" />
+           <img src={vec} className="nav--logo" />
            
            <span className="font-extrabold text-lg">uifry</span>
         </div>
@@ -19,7 +21,7 @@ export default function Nav(){
             
             <div className='btn-con'>
              <button className='btn'>Download</button>
-             <div className="str1 rotate-45"><img src="./src/assets/Star.png" /></div>
+             <div className="str1 rotate-45"><img src={st} /></div>
             </div>
             
         
