@@ -1,4 +1,5 @@
 import React from "react";
+import vector from "../assets/Vector.png"
 export default function Footer(){
     return(
         <section class=" flex py-32 mt-20 md:mt-80 md:w-full">
@@ -7,7 +8,7 @@ export default function Footer(){
           <div class="flex-col">
           <div class="flex w-1/5">
               <span> 
-              <img class="w-5 py-1 "src="./src/assets/Vector.png"/>
+              <img class="w-5 py-1 "src={vector}/>
               </span>
               <span class="text-xl font-bold">uifry
               </span>

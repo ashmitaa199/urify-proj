@@ -1,5 +1,7 @@
 import React from "react";
 import wrings from "../assets/wrings.png"
+import iphone from "../assets/iphone3.png"
+import bg1 from "../assets/bg1.png"
 export default function Page8(){
     return(
         
@@ -16,10 +18,10 @@ export default function Page8(){
               Download App<i class="fa-brands fa-apple px-1"></i>
             </button>
             <div class="absolute left-3/4  rotate-180">
-              <img class="md:-mt-2"src="/src/assets/bg1.png"/>
+              <img class="md:-mt-2"src={bg1}/>
             </div>
             <div class="  ">
-              <img class=" absolute w-96 h-full z-10 right-0 mt-0"src="/src/assets/iphone3.png"/>
+              <img class=" absolute w-96 h-full z-10 right-0 mt-0"src={iphone}/>
               
               <img class="absolute w-64 mt-52 z-0"src={wrings}/>
            
