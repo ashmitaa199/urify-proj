@@ -80,9 +80,9 @@ function App() {
           </div>
 
         <Footer/>
-         <div class="w-full flex flex-col justify-self-center ml-4 px-32 ">
-         <hr class="h-px my-1 bg-gray-200 border-spacing-1 dark:bg-slate-700 px-36 justify-self-center "/> 
-         <p class="ml-80 py-3 pb-5 text-xs justify-self-center">Copyright 2022 uifry.com all rights reserved</p>
+         <div class=" flex flex-col justify-self-center md:w-full md:flex md:flex-col md:justify-self-center md:ml-4 md:px-32 ">
+         <hr class="md:h-px md:my-1 md:bg-gray-200 md:border-spacing-1 md:dark:bg-slate-700 md:px-36 md:justify-self-center "/> 
+         <p class="text-xs justify-self-center ml-40 md:ml-80 md:py-3 md:pb-5 md:text-xs md:justify-self-center">Copyright 2022 uifry.com all rights reserved</p>
          </div>
     </div>
   )

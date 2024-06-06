@@ -12,10 +12,10 @@ import man from "../assets/1man.png"
 import grpman from "../assets/grpman.png"
 export default function Page5(){
     return(
-        <section class=" my-10 md:flex md:py-0  md:mt-5">
-          <section class="md:absolute md:left-[530px] md:flex-col text-center md:mx-auto">
-    <span class=" mt-24 md:ml-20 md:text-sm">Testimonials</span>
-    <p class="md:ml-5 md:font-extrabold md:text-3xl mt-0">What Our Users <br/>Say About Us?</p>
+        <section class=" my-10 md:flex md:py-5  md:mt-12">
+          <section class="md:absolute md:left-[510px] md:flex-col text-center md:mx-auto">
+    <span class=" mt-24 text-xs md:ml-6 md:text-sm">Testimonials</span>
+    <p class=" text-sm md:ml-5 md:font-extrabold md:text-3xl mt-0">What Our Users <br/>Say About Us?</p>
 </section>
 
           
